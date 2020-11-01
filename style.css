@@ -1,0 +1,95 @@
+/* navbar styling*/
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(81, 175, 160);
+    font-size: 25px;
+}
+
+/* header styling*/
+h3{
+    color: rgb(81, 175, 160);
+    padding: 15px;
+}
+
+/* image styling*/
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/* fontstyling for text*/
+p{
+   font-size: large;
+   padding:10px;
+}
+
+/* body background*/
+body{
+    background-color: rgb(223, 222, 222);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+/* image border styling*/
+.pic{
+    border: 3px solid rgb(81, 175, 160);
+}
+
+/* Navbar */
+
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: rgb(81, 175, 160);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: white; 
+    font-size: 15px; 
+}
+.active .dropdown-menu .dropdown-item:active a:hover{
+    background-color:#E7E7E7!important; 
+}
+.dropdown-item{
+    color: #6D8092 !important; 
+}
+.navbar-default  {
+	height:auto!important;
+}
+
+/* content styling*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar-header {
+        float: none;
+    }
+    .navbar{
+        background-color: rgb(81, 175, 160)!important;
+        padding:inherit;
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
